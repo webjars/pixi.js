@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>pixi.js</artifactId>
-    <version>2.1.1</version>
+    <version>2.1.2-SNAPSHOT</version>
     <name>Pixi Renderer</name>
     <description>WebJar for Pixi Renderer</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/pixi.js</url>
         <connection>scm:git:https://github.com/webjars/pixi.js.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/pixi.js.git</developerConnection>
-        <tag>pixi.js-2.1.1</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <build>
