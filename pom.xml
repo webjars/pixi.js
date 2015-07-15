@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>pixi.js</artifactId>
-    <version>3.0.7-SNAPSHOT</version>
+    <version>3.0.7</version>
     <name>Pixi Renderer</name>
     <description>WebJar for Pixi Renderer</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/pixi.js</url>
         <connection>scm:git:https://github.com/webjars/pixi.js.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/pixi.js.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>pixi.js-3.0.7</tag>
     </scm>
     
     <build>
@@ -65,11 +65,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/pixi.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/pixi.js.map" dest="${destDir}"/>
-                                <get src="${upstream.url}/pixi.min.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/pixi.min.js.map" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/pixi.js" dest="${destDir}" />
+                                <get src="${upstream.url}/pixi.js.map" dest="${destDir}" />
+                                <get src="${upstream.url}/pixi.min.js" dest="${destDir}" />
+                                <get src="${upstream.url}/pixi.min.js.map" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
