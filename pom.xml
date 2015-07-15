@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>pixi.js</artifactId>
-    <version>3.0.7</version>
+    <version>3.0.7-SNAPSHOT</version>
     <name>Pixi Renderer</name>
     <description>WebJar for Pixi Renderer</description>
     <url>http://webjars.org</url>
