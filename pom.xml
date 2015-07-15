@@ -66,9 +66,10 @@
                         <configuration>
                             <target>
                                 <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/pixi.dev.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/pixi.dev.js.map" dest="${destDir}"/>
                                 <get src="${upstream.url}/pixi.js" dest="${destDir}"/>
+                                <get src="${upstream.url}/pixi.js.map" dest="${destDir}"/>
+                                <get src="${upstream.url}/pixi.min.js" dest="${destDir}"/>
+                                <get src="${upstream.url}/pixi.min.js.map" dest="${destDir}"/>
                             </target>
                         </configuration>
                     </execution>
